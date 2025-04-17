@@ -1,6 +1,13 @@
 /*************************************************
     GENERAL STYLES
  *************************************************/
+
+:root {
+    --color-blaky: #232946;
+    --color-pinky: #eebbc3;
+    --color-whity: #fffffe;
+}
+
 *,
 *::before,
 *::after {
@@ -12,13 +19,13 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     color: #b8c1ec;
-    background: #232946;
+    background: var(--color-blaky);
 }
 
 h1,
 h2,
 h3 {
-    color: #eebbc3;
+    color: var(--color-pinky);
 }
 
 h1 {
@@ -29,7 +36,7 @@ h1 {
 h2 {
     margin-bottom: 2.5rem;
     font-size: 2rem;
-    color: #fffffe;
+    color: var(--color-whity);
 }
 
 h3 {
@@ -89,13 +96,13 @@ img {
 .steps {
     margin: 3rem 0;
     padding: 3rem 0;
-    color: #232946;
-    background: #eebbc3;
+    color: var(--color-blaky);
+    background: var(--color-pinky);
 }
 
 .steps h2,
 .steps h3 {
-    color: #232946;
+    color: var(--color-blaky);
 }
 
 .steps .col {
